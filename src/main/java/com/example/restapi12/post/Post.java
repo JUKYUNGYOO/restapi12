@@ -28,11 +28,11 @@ public class Post {
 
     private String code;
 
-
-
-    private LocalDateTime regDate;
     @Enumerated(EnumType.STRING) //기본값 string으로 바꾸기
     private PostStatus status;
+
+    private LocalDateTime regDate;
+
 
 
 }
